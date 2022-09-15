@@ -11,13 +11,13 @@ public class Main {
         Lampada p1 = new Lampada(); 
         
         System.out.println("Marca: ");
-        String marca = tc.nextLine();
+        p1.marca = tc.nextLine();
         
         System.out.println("Potencia: ");
-        double potencia = tc.nextDouble();
+        p1.potencia = tc.nextDouble();
         
-        System.out.println("Marca " + marca);
-        System.out.println("Potencia " + potencia);
+        System.out.println("Marca " + p1.marca);
+        System.out.println("Potencia " + p1.potencia);
         
         /* *************************************************** 
         Escreva uma classe que represente uma conta bancária. Crie objetos do 
@@ -25,18 +25,19 @@ public class Main {
         
         Conta p2 = new Conta();
         
+        tc.nextLine();
         System.out.println("Nome: ");
-        String nome = tc.nextLine();
+        p2.nome = tc.nextLine();
         
         System.out.println("Numero: ");
-        double numero = tc.nextDouble();
+        p2.numero = tc.nextDouble();
         
         System.out.println("CPF: ");
-        double cpf = tc.nextDouble();
+        p2.cpf = tc.nextDouble();
         
-        System.out.println("Nome: " + nome);
-        System.out.println("Numero: " + numero);
-        System.out.println("CPF: " + cpf);
+        System.out.println("Nome: " + p2.nome);
+        System.out.println("Numero: " + p2.numero);
+        System.out.println("CPF: " + p2.cpf);
         
         /* *************************************************** 
         Escreva uma classe que represente um livro que está à venda em uma 
@@ -44,6 +45,7 @@ public class Main {
         
         Livro p3 = new Livro();
         
+        tc.nextLine();
         System.out.println("Nome: ");
         String name = tc.nextLine();
         
