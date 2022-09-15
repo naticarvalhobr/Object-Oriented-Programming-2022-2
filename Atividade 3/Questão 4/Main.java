@@ -20,6 +20,7 @@ public class Main {
         int m = tc.nextInt(); 
         p1.setData(m);
         
+        tc.nextLine();
         System.out.println("Nome de quem esta emprestando: ");
         String p = tc.nextLine();
         p1.setNome(p);
@@ -32,6 +33,7 @@ public class Main {
         int q = tc.nextInt(); 
         p2.setISBN(q);
         
+        tc.nextLine();
         System.out.println("Nome do livro: ");
         String r = tc.nextLine(); 
         p2.setNome(r);
