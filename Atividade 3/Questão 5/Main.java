@@ -45,6 +45,7 @@ public class Main {
         
         Pedido p3 = new Pedido();
         
+        tc.nextLine();
         System.out.println("Forma de pagamento do pedido: ");
         String s = tc.nextLine(); 
         p3.setPagamento(s);
