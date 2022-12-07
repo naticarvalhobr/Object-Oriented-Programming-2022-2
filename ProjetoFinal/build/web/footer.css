@@ -1,0 +1,48 @@
+*{
+    margin: 0; 
+}
+
+nav{
+
+    height: 100px;
+    /* background-color: #FFBF86;
+    box-shadow: 5px 5px 20px #FED2AA; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    font-size: 30px;
+    list-style: none; /* Muda o formato da bolinha que fica do lado da lista */
+    padding: 50px; /* Espaçamento entre os itens*/
+}
+
+a{ /* sobrepõe ao li em relação a formatação */ 
+    text-decoration: none; /* Pro texto não ficar com uma linha embaixo quando estiver com um link */
+    color: black;
+    font-size: 25px;
+}
+
+.paiFooter{
+    display: flex; /* Indica que as divs filhas ficarão lado a lado */ 
+    justify-content: space-around; /* justifica as div filhas no espaço da div pai */
+    margin-top: 50px;
+}
+
+p{
+    padding: 20px;
+}
+
+footer{
+    height: 190px;
+    background-image: url(Resources/backgroundFooter.png);
+    padding-bottom: 0px;
+    width: 100%;
+    position: absolute;
+}
+
+#filhaFooter3{
+    padding-top: 30px;
+    padding-left: 380px;
+}

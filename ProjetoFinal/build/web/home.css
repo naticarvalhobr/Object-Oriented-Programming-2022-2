@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+nav{
+    height: 97px;
+    background-color: #C7A45F;
+    color: #E3E1D3;
+
+}
+div{
+    justify-content: end;
+}
+
+
+#navbarNav li a{ 
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Bebas Neue;
+    padding: 10px;
+    color: #393F28;
+
+}
+.navbar-brand{
+    padding-top: 40px;
+}
+
+
+/*Caso a gente precise mudar o background do link selecionado*/
+/* a:hover{
+    background-color: black;
+} */
+
+/*Mudar cor do link selecionado*/
+ .active{
+    color: #E3E1D3 !important;
+}
+
+*{
+    margin: 0; 
+}
+
+.paiHome{
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../Resources/Background.png);
+
+}
+
+#filhaHome1{
+    width: 640px;
+    font-size: 30px;
+    font-family: Montserrat, regular;
+    color: #917243;
+}
+
+.btn{
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-left: 190px;
+    font-family: Bebas Neue;
+    background-color: #393F28
+}
+
+#filhaHome3{
+    height: 350px;
+    width: 640px;
+    font-size: 80px;
+    font-family: Bebas Neue;
+    color: #393F28;
+    padding-top: 30px;
+}
+
+#filhaHome5{
+    height: 350px;
+    width: 640px;
+    font-size: 70px;
+    font-family: Bebas Neue;
+    color: #393F28;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+#filhaHome4{
+    padding-top: 80px;
+}
+
+#filhaHome2{
+    padding-top: 150px;
+    margin-right: 50px;
+}
+
+.paiHome2{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #CECFB7;
+}
+
+
+
